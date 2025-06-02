@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Productos - ElectroTech S.A.C.</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo">
+            <img
+              src="./img/logo.jpg"
+              alt="ElectroTech Logo"
+              class="logo-image"
+            />
+            <h2>ElectroTech S.A.C.</h2>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html" class="active">Productos</a></li>
+            <li><a href="marcas.html">Marcas</a></li>
+            <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="login.html" class="login-btn">Iniciar Sesión</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1>Nuestros Productos</h1>
+          <p>Dispositivos electrónicos de la más alta calidad</p>
+        </div>
+      </section>
+
+      <section class="products">
+        <div class="container">
+          <div class="product-filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="celulares">
+              Celulares
+            </button>
+            <button class="filter-btn" data-filter="laptops">Laptops</button>
+            <button class="filter-btn" data-filter="smartwatches">
+              Smartwatches
+            </button>
+            <button class="filter-btn" data-filter="televisores">
+              Televisores
+            </button>
+          </div>
+
+          <div class="products-grid">
+            <div class="product-card" data-category="celulares">
+              <img src="./img/s25.png" alt="Smartphone Premium" />
+              <div class="product-info">
+                <h3>Celular Galaxy S25 Ultra 256GB</h3>
+                <p>
+                  Teléfonos inteligentes de última generación con las mejores
+                  características del mercado.
+                </p>
+                <div class="product-features">
+                  <span class="feature">5G</span>
+                  <span class="feature">Cámara 200MP</span>
+                  <span class="feature">8GB RAM</span>
+                </div>
+                <button class="btn btn-primary">Solicitar Cotización</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="celulares">
+              <img src="./img/iphone2.png" alt="Smartphone Gama Alta" />
+              <div class="product-info">
+                <h3>iPhone 16 Pro Max 256GB</h3>
+                <p>Excelente dispositivo de alto rendimiento.</p>
+                <div class="product-features">
+                  <span class="feature">256 GB</span>
+                  <span class="feature">Cámara 48 MP</span>
+                  <span class="feature">8GB RAM</span>
+                </div>
+                <button class="btn btn-primary">Solicitar Cotización</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="laptops">
+              <img src="./img/dell.png" alt="Laptop Ultradelgada" />
+              <div class="product-info">
+                <h3>
+                  LAPTOP DELL ALIENWARE M16 16 CORE i7-13700HX 16GB RAM 1TB SSD
+                  NVIDIA RTX 4070 8GB
+                </h3>
+                <p>
+                  Computadoras portátiles de alto rendimiento con diseño
+                  elegante y ligero.
+                </p>
+                <div class="product-features">
+                  <span class="feature">SSD 1TB</span>
+                  <span class="feature">16GB RAM</span>
+                  <span class="feature">Procesador i7</span>
+                </div>
+                <button class="btn btn-primary">Solicitar Cotización</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="laptops">
+              <img src="./img/rog.png" alt="Laptop Gaming" />
+              <div class="product-info">
+                <h3>Laptop ROG Strix SCAR 18 U9 64GB RAM 2TB RTX 5080 16GB</h3>
+                <p>
+                  Potencia y rendimiento para los gamers más exigentes con
+                  tarjetas gráficas dedicadas.
+                </p>
+                <div class="product-features">
+                  <span class="feature">RTX 5080</span>
+                  <span class="feature">64GB RAM</span>
+                  <span class="feature">Pantalla 240Hz</span>
+                </div>
+                <button class="btn btn-primary">Solicitar Cotización</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="smartwatches">
+              <img src="./img/smartwatch.png" alt="Smartwatch Premium" />
+              <div class="product-info">
+                <h3>Apple Watch SE 2024 GPS 40mm Starlight Sport Band S/M</h3>
+                <p>
+                  Relojes inteligentes con monitoreo de salud, GPS y múltiples
+                  funciones conectadas.
+                </p>
+                <div class="product-features">
+                  <span class="feature">ECG</span>
+                  <span class="feature">GPS</span>
+                  <span class="feature">Resistente al agua</span>
+                </div>
+                <button class="btn btn-primary">Solicitar Cotización</button>
+              </div>
+            </div>
+
+            <div class="product-card" data-category="televisores">
+              <img src="./img/tv.png" alt="Smart TV 4K" />
+              <div class="product-info">
+                <h3>Smart TV 4K</h3>
+                <p>
+                  Televisores inteligentes con resolución 4K, HDR y sistemas
+                  operativos avanzados.
+                </p>
+                <div class="product-features">
+                  <span class="feature">4K UHD</span>
+                  <span class="feature">HDR10+</span>
+                  <span class="feature">Smart TV</span>
+                </div>
+                <button class="btn btn-primary">Solicitar Cotización</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section">
+        <div class="container">
+          <h2>Servicios Incluidos</h2>
+          <div class="services-grid">
+            <div class="service-item">
+              <i class="fas fa-truck-fast"></i>
+              <h3>Entrega Rápida</h3>
+              <p>Envío a domicilio en todo el país</p>
+            </div>
+            <div class="service-item">
+              <i class="fas fa-shield-halved"></i>
+              <h3>Garantía</h3>
+              <p>Todos nuestros productos cuentan con garantía oficial</p>
+            </div>
+            <div class="service-item">
+              <i class="fas fa-screwdriver-wrench"></i>
+              <h3>Soporte Técnico</h3>
+              <p>Servicio técnico especializado para todos los dispositivos</p>
+            </div>
+            <div class="service-item">
+              <i class="fas fa-credit-card"></i>
+              <h3>Múltiples Formas de Pago</h3>
+              <p>Aceptamos todas las tarjetas y pagos en efectivo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>ElectroTech S.A.C.</h3>
+          <p>
+            Especialistas con los equipos tecnológicos recien lanzados al
+            mercado en Jaén, Cajamarca, Perú.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Enlaces Rápidos</h4>
+          <ul>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="marcas.html">Marcas</a></li>
+            <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p>
+            <i class="fas fa-map-marker-alt"></i> Av. Pakamuros N°505 Jaén,
+            Cajamarca, Perú
+          </p>
+          <p><i class="fas fa-phone"></i> +51 916 736 408</p>
+          <p><i class="fas fa-envelope"></i> electrotech@gmail.com</p>
+        </div>
+        <div class="footer-section">
+          <h4>Legal</h4>
+          <ul>
+            <li>
+              <a href="terminos-condiciones.html">Términos y Condiciones</a>
+            </li>
+            <li>
+              <a href="#" onclick="showPrivacyPolicy()"
+                >Política de Privacidad</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 ElectroTech S.A.C. Todos los derechos reservados.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
